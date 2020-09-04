@@ -13,6 +13,7 @@ namespace VibeApi.Controllers
         private ProvaVibe_00Entities db = new ProvaVibe_00Entities();
 
         // GET: api/TipoSeguro
+        [HttpGet]
         public List<TIPOSEGURO> Get()
         {
             return db.TIPOSEGURO.ToList();

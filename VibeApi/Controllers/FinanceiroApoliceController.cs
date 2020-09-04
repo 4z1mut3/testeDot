@@ -12,13 +12,16 @@ namespace VibeApi.Controllers
     public class FinanceiroApoliceController : ApiController
     {
         private ProvaVibe_00Entities db = new ProvaVibe_00Entities();
+
         // GET: api/FinanceiroApolice
+        [HttpGet]
         public List<FINANCEIROAPOLICE> Get()
         {
             return db.FINANCEIROAPOLICE.ToList();
         }
 
         // GET: api/FinanceiroApolice/5
+        [HttpGet]
         public FINANCEIROAPOLICE Get(int id)
         {
             FINANCEIROAPOLICE financeiroApolice = db.FINANCEIROAPOLICE.Find(id);
