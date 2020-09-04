@@ -42,7 +42,6 @@ namespace VibeApi.Controllers
             tiposeguro.IDTIPOSEGURO += db.TIPOSEGURO.ToList().Count() + 1;
             if (tiposeguro != null)
             {
-
                 try
                 {
                     db.TIPOSEGURO.Add(tiposeguro);
@@ -52,8 +51,6 @@ namespace VibeApi.Controllers
                 {
 
                 }
-
-
             }
         }
 
