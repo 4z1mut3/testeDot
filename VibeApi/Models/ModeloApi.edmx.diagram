@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5a4bc5c1fe8e423d9535a31f5eac3e5f" Name="Diagram1">
+        <EntityTypeShape EntityType="ProvaVibe_00Model.APOLICE" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProvaVibe_00Model.FINANCEIROAPOLICE" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProvaVibe_00Model.SEGURADO" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProvaVibe_00Model.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProvaVibe_00Model.TIPOSEGURO" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <AssociationConnector Association="ProvaVibe_00Model.FK_APOLICE_SEGURADO" ManuallyRouted="false" />
+        <AssociationConnector Association="ProvaVibe_00Model.FK_APOLICE_TIPOSEGURO" ManuallyRouted="false" />
+        <AssociationConnector Association="ProvaVibe_00Model.FK_FINANCEIROAPOLICE_APOLICE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
